@@ -23,7 +23,7 @@ MultiQC was written by Phil Ewels (http://phil.ewels.co.uk) at Seqera Labs (http
 
 from setuptools import find_packages, setup
 
-version = "1.20dev"
+version = "1.20dev_sgr"
 dl_version = "main" if "dev" in version else f"v{version}"
 
 print(
@@ -202,6 +202,7 @@ setup(
             "sourmash = multiqc.modules.sourmash:MultiqcModule",
             "stacks = multiqc.modules.stacks:MultiqcModule",
             "star = multiqc.modules.star:MultiqcModule",
+            "starsolo = multiqc.modules.starsolo:MultiqcModule",
             "supernova = multiqc.modules.supernova:MultiqcModule",
             "theta2 = multiqc.modules.theta2:MultiqcModule",
             "tophat = multiqc.modules.tophat:MultiqcModule",

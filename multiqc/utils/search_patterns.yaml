@@ -837,6 +837,9 @@ star:
   fn: "*Log.final.out"
 star/genecounts:
   fn: "*ReadsPerGene.out.tab"
+starsolo:
+  fn: "Summary.csv"
+  contents: "GeneFull_Ex50pAS"
 supernova/report:
   fn: "*report*.txt"
   num_lines: 100

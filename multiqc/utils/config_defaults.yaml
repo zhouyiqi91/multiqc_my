@@ -177,6 +177,7 @@ fn_clean_exts:
   - ".pbmarkdup.log"
   - ".log"
   - ".stderr"
+  - "_Solo.out"
   - ".out"
   - ".spp"
   - ".fa"
