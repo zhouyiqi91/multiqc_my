@@ -23,7 +23,7 @@ MultiQC was written by Phil Ewels (http://phil.ewels.co.uk) at Seqera Labs (http
 
 from setuptools import find_packages, setup
 
-version = "1.20dev_sgr"
+version = "1.20.post0"
 dl_version = "main" if "dev" in version else f"v{version}"
 
 print(
@@ -216,6 +216,7 @@ setup(
             "whatshap = multiqc.modules.whatshap:MultiqcModule",
             "xenome = multiqc.modules.xenome:MultiqcModule",
             "xengsort = multiqc.modules.xengsort:MultiqcModule",
+            "snapatac2 = multiqc.modules.snapatac2:MultiqcModule",
         ],
         "multiqc.templates.v1": [
             "default = multiqc.templates.default",

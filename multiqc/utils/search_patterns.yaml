@@ -907,3 +907,5 @@ xenome:
 xengsort:
   contents: "# Xengsort classify"
   num_lines: 2
+snapatac2:
+  fn: "*.snapatac2.log"
